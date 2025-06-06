@@ -9,7 +9,6 @@ def load_key():
     file.close()
     return key
 
-
 key = load_key()
 fer = Fernet(key)
 
